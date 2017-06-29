@@ -1,0 +1,33 @@
+Identificadores: 
+0	4	a
+1	4	b
+2	5	a
+3	6	c
+4	4	c
+
+Operadores Lógicos e Aritméticos: 
+
+Palavras Reservadas: 
+0	0	int
+1	0	int
+2	0	char
+3	0	float
+4	0	int
+
+Comandos: 
+
+Comentários: 
+0	9/alskmdalskm
+
+Literais: 
+
+Separadores: 
+0	6	;
+1	6	;
+2	7	;
+3	8	;
+4	6	;
+
+Atribuição: 
+
+Caracteres errados: 

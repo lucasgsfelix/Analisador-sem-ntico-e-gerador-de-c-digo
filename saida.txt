@@ -1,0 +1,33 @@
+Identificadores: 
+0	4	a
+1	4	i
+2	8	i
+
+Operadores Lógicos e Aritméticos: 
+2	9	==
+
+Palavras Reservadas: 
+0	0	int
+1	0	int
+2	0	while
+
+Comandos: 
+
+Comentários: 
+
+Literais: 
+2	12	0
+
+Separadores: 
+0	6	;
+1	6	;
+2	6	(
+2	14	)
+3	0	{
+4	-1	
+
+5	0	}
+
+Atribuição: 
+
+Caracteres errados: 
