@@ -57,6 +57,8 @@ def gerar_codigo(funcao, token, expressao):
 		print '\tSTORE t'+str(t)+',$S'+str(x)
 		arq_saida.write('\tAND $S'+str(x)+',$S'+str(x+1)+',$S'+str(x+2)+'\n')
 		arq_saida.write('\tSTORE t'+str(t)+',$S'+str(x)+'\n')
+	elif(funcao=='else'):
+		print '\tLabel'+str(label_store[len(label_store)-1])
 	elif(funcao=='Dlinha'):
 		if(token=='>'):
 			print '\tSBT $S'+str(x)+',$S'+str(x+1)+',$S'+str(x+2) #bigger than 

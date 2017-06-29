@@ -334,6 +334,7 @@ def condicao_linha(tokens, i):
 			i=i+1
 			aux = tokens[i].split('\t')
 			if(aux[2]=='}'):
+				gerar_codigo('jump', 0, 0)
 				return i
 			else:erro(tokens, i, "}")
 		else:erro(tokens, i, "{")
